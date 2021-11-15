@@ -1,0 +1,59 @@
+
+.main-section{   
+    background: linear-gradient(48.84deg, #6BBBAF 21.01%, #619BBC 65.42%, #1277C5 101.51%);
+    width: 100%;
+    height: 180vh;
+   
+} 
+.section-grid{
+    width: 100vw;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;    
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: 350px;
+    grid-template-rows: 422px;
+    grid-template-areas: "image" "stats";
+    font-family: 'Courier New', Courier, monospace;    
+    background: white;  
+    text-align: center;   
+}
+
+.card-image{
+    grid-area: image;
+    background: url("/images/MicrosoftTeams-image\ \(4\).png");      
+    background-size: cover;
+    height: 422px;
+   
+}
+
+.card-stats{
+    grid-area: stats;
+    display: flex;
+    background: #373f41;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding-top: 20px;
+    height: 59px;
+}
+
+.expectation{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 57.47px;
+    margin-bottom: 60px;
+}
